@@ -51,22 +51,33 @@ JWT Authentication
 Clone the repository
 
 git clone https://github.com/AnusreeE719/TODO.git
+
 cd todo
 
 Backend Setup
+
 cd backend
+
 npm install
 
 Create .env file
+
 PORT=2026
+
 MONGO_URI=your_mongo_uri_here
+
 JWT_SECRET=your_jwt_secret
+
 NODE_ENV=development
 
 Run the server
+
 npm run dev
 
 Frontend Setup
+
 cd frontend
+
 npm install
+
 npm run dev
