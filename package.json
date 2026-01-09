@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A full-stack Todo Management Dashboard built using the MERN stack.\r This application allows users to create, view, update, delete, and manage todo items with authentication and a clean dashboard UI.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnusreeE719/TODO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnusreeE719/TODO/issues"
+  },
+  "homepage": "https://github.com/AnusreeE719/TODO#readme"
+}
